@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>ProgForce Test</title>
+
+
+</head>
+
+<body>
+  <div id="app">
+    <div class="container">
+      <main class="main">
+        <h1 class="title">Movies Gallery</h1>
+        <div class="option">
+          <form class="select-form">
+            <select id="select-genres">
+              <option value="default" disabled selected>Select Genre</option>
+              <option value="all">all</option>
+              n 
+            </select>
+          </form>
+          <div class="view-block">
+            <p>View as:</p>
+            <button class="block active">
+              <img src="img/icons/grid.png" class="block-img" alt="grid">
+            </button>
+            <button class="list">
+              <!-- <i class="fa fa-list-alt" aria-hidden="true"></i> -->
+              <img src="img/icons/icons8-bulleted-list-32.png" class="list-img" alt="list">
+            </button>
+          </div>
+        </div>
+<!-- ==========================Movie Card================================== -->
+        <section class="movies-card">
+
+        </section>
+
+        <!-- ==========================Movie List================================== -->
+        <section class="movies-list">
+         
+        </section>
+
+      </main>
+
+       <!-- ==========================Favorite List================================== -->
+      <aside class="favorite">
+        <h2>
+          Favorite List
+        </h2>
+        <img src="img/icons/icons8-star-32 (1).png" alt="" >
+        <div class="fav-list">
+          <!-- <i class="fa-solid fa-arrow-right"></i>
+          <p class="fav-name">1fcjsdhbdaf</p>
+          <i class="far fa-trash-alt"></i> -->
+        </aside>
+        </div>
+        
+    </div>
+    
+    
+    </div>
+    <div class="modal">
+      <div class="modal__description">
+        <!-- <div class="modal__close" data-close>&times;</div>
+        <div class="modal__info">
+          <img class="modal__img"
+            src="https://m.media-amazon.com/images/M/MV5BMDg2YzI0ODctYjliMy00NTU0LTkxODYtYTNkNjQwMzVmOTcxXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_SY1000_CR0,0,648,1000_AL_.jpg"
+            alt="${movie.name}">
+          <div class="modal-star">
+            <button type="button" class="add-favorite" data-id="${info.id}"><i class="fas fa-star"></i></button>
+            <p>2019</p>
+          </div>
+          <div class="modal__info-genres">
+            <div>action</div>
+            <div>usa</div>
+            <div>fantasy</div>
+            <div>triller</div>
+          </div>
+        </div>
+        <div class="modal__content">
+          <div class="modal__title">John Wick: Chapter 3 - Parabellum</div>
+          <div class="modal__content-descr">
+            <p>John Wick is on the run after killing a member of the international assassins' guild, and with a $14 million
+              price tag on his head, he is the target of hit men and women everywhere</p>
+          </div>
+          <div class="modal__content-team">
+            <p>Director: ${info.director}</p>
+            <p>Starring: ${info.starring.join(', ')} </p>
+          </div>
+    
+    
+        </div> -->
+      </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
